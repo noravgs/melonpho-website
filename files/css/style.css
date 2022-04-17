@@ -1,0 +1,234 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+width: 100vw;
+font-family: 'Playfair Display', serif;
+font-size: small;
+background-color: honeydew;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+  width: 100%;
+  height: 10vh;
+  /* border: 1px solid orange; */
+}
+.welcome{
+  width: 100%;
+  height: 75vh;
+  /* border: 1px solid red; */
+  background-image: url("../css/mainImage.jpg");
+  background-repeat: no-repeat;
+  background-size: 58%;
+  background-position: right;
+  background-color: honeydew;
+  
+}
+.ourStory{
+  width: 100%;
+  height: 75vh;
+  /* border: 1px solid yellow; */
+}
+.menu{
+  width: 100%;
+  height: 85vh;
+  /* border: 1px solid green; */
+}
+.hours{
+  width: 100%;
+  height: 75vh;
+  /* border: 1px solid purple; */
+}
+.customerReview{
+  width: 100%;
+  height: 75vh;
+  /* border: 1px solid pink; */
+}
+nav li{
+  display: inline;
+  text-decoration: none;
+  padding-right: 40px;
+  padding-left: 50px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.bigH1{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+#search {
+  width: 200px;
+  height: 25px;
+}
+
+#restaurantSelect {
+  background-color: teal;
+  color: white;
+  width: 100px;
+  height: 25px;
+}
+
+.mediaContent, .textContent {
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+  float: left;
+  
+}
+
+.textContent {
+  font-size: 1rem;
+  padding-top: 75px;
+}
+
+.textContent > span{
+  font-weight: bold;
+  color: teal;
+}
+
+.textContent + h2 {
+  font-weight: bold;
+  font-weight: 100;
+}
+
+.menuButton{
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+}
+
+.menu > span {
+  color: teal;
+  font-weight: bold;
+}
+
+.menu > h2 {
+  font-weight: bold;
+}
+
+.mediaContent img{
+  width: 100%;
+  padding: 20px;
+}
+
+.menu{
+  text-align: center;
+  
+}
+
+.menu li a:hover,nav li a:hover{
+  color: teal;
+}
+
+.menu li{
+  display: inline;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.hours{
+  text-align: center;
+}
+
+.book{
+  color: teal;
+  font-weight: bold;
+}
+
+.hours p{
+  color: teal;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.testimonials {
+  color: teal;
+  font-weight: bold;
+}
+
+.customerReview h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.customerName {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.customerReview{
+  padding: 10px;
+  text-align: center;
+}
+
+.review{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
+  width: 25%;
+  height: 25vh;
+  float: left;
+  overflow: hidden;
+}
+
+.img1 img, .img2 img, .img3 img, .img4 img, .img5 img, .img6 img, .img7 img, .img8 img{
+  width: 75%;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.hours img{
+  width: 35%;
+}
+
+.customerReview p{
+  padding: 20px;
+}
+
+.welcome {
+  padding: 20px;
+}
+
+nav ul li img{
+  width: 15px;
+  height: 15px;
+}
+
+.customerReview img{
+  width: 15%;
+  border-radius: 75px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
